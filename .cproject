@@ -30,6 +30,18 @@
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.429033510" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.1305367226" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.616459136" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/local/include"/>
+									<listOptionValue builtIn="false" value="/usr/include"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6/x86_64-linux-gnu"/>
+									<listOptionValue builtIn="false" value="/usr/include/c++/4.6/backward"/>
+									<listOptionValue builtIn="false" value="/usr/lib/gcc/x86_64-linux-gnu"/>
+									<listOptionValue builtIn="false" value="/usr/lib/gcc/x86_64-linux-gnu/4.6/include"/>
+									<listOptionValue builtIn="false" value="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/eigen-3.0.5"/>
+									<listOptionValue builtIn="false" value="/usr/include/GL"/>
+								</option>
 								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1731981712" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
 							</tool>
 							<tool id="org.eclipse.cdt.build.core.settings.holder.529558440" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">

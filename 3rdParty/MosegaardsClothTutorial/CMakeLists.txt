@@ -18,8 +18,7 @@ include_directories(${GLUT_INCLUDE_DIR} ${GLU_INCLUDE_DIR})
 link_libraries(${GLUT_LIBRARY} ${GLU_LIBRARY} glui)
 
 # Include Eigen3
-include_directories(${EIGEN3_INCLUDE_DIR}) 
+include_directories(/usr/local/include/eigen-3.0.5)
 
 # Build the script
 add_executable(MosegaardsClothTutorial MosegaardsClothTutorial.cpp)
-# target_link_libraries(MosegaardsClothTutorial ${PROJECT_NAME})
