@@ -21,4 +21,6 @@ link_libraries(${GLUT_LIBRARY} ${GLU_LIBRARY} glui)
 include_directories(/usr/local/include/eigen-3.0.5)
 
 # Build the script
-add_executable(MosegaardsClothTutorial MosegaardsClothTutorial.cpp)
+file(GLOB srcs "*.cpp")
+file(GLOB hdrs "*.h")
+add_executable(MosegaardsClothTutorial ${srcs} ${hdrs})
